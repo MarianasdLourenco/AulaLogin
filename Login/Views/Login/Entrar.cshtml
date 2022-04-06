@@ -1,0 +1,17 @@
+﻿@if (TempData["erro"] != null) {
+
+<h1>@TempData["erro"]</h1>
+
+}
+
+<h1> Tela de Login</h1>
+
+<form method="post" action="/Login/Entrar">
+Usuário <input type="text" name="usuario" />
+    <br>
+Senha <input type="password" name="senha" />
+<br>
+<button type="submit">Logan</button>
+
+
+</form>
